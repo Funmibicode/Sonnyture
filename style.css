@@ -107,6 +107,8 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
+            align-items: center;
+            justify-content: center;
         }
 
         .main-image {
@@ -496,6 +498,14 @@
         }
 
         @media (max-width: 640px) {
+            .product-images {
+                position: relative;
+                left: -20px;
+            }
+            .product-info{
+                position :relative;
+                left: -20px;
+            }
             .products-grid {
                 grid-template-columns: 1fr;
             }
