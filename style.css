@@ -91,32 +91,13 @@
             align-items: center;
         }
 
-        .search-box {
-            background-color: rgba(255, 255, 255, 0.15);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            padding: 8px 15px;
-            border-radius: 20px;
-            color: white;
-            width: 200px;
-            transition: all 0.3s;
-        }
-
-        .search-box:focus {
-            background-color: rgba(255, 255, 255, 0.25);
-            border-color: #ff6b6b;
-            outline: none;
-        }
-
-        .search-box::placeholder {
-            color: rgba(255, 255, 255, 0.7);
-        }
-
         .cart-icon {
             color: white;
-            font-size: 20px;
+            font-size: 24px;
             cursor: pointer;
             position: relative;
             transition: transform 0.3s;
+            padding: 8px 12px;
         }
 
         .cart-icon:hover {
@@ -747,10 +728,6 @@
                 flex-direction: column;
                 text-align: center;
             }
-            
-            .search-box{
-                display: none;
-            }
 
             .payment-methods {
                 justify-content: center;
@@ -759,5 +736,9 @@
             .footer-legal {
                 flex-direction: column;
                 gap: 10px;
+            }
+            
+            .newsletter-form{
+                display: block;
             }
         }
