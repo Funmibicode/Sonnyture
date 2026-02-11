@@ -740,5 +740,10 @@
             
             .newsletter-form{
                 display: block;
+                
+            }
+            
+            .newsletter-btn{
+                margin-top: 10pt;
             }
         }
