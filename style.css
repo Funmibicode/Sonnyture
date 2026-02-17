@@ -30,17 +30,19 @@
         }
 
         .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
-            border-radius: 50%;
+            width: 30px;
+            height: 10px;
+            object-fit: contain;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            color: white;
-            font-size: 20px;
-            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+        
+        .logo-icon img{
+            width: 160pt;
+            height: 240px;
+            position: relative;
+            top: -18pt;
         }
 
         .logo-text {
@@ -501,18 +503,22 @@
         }
 
         .footer-logo-icon {
-            width: 45px;
-            height: 45px;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
-            border-radius: 50%;
+            width: 30px;
+            height: 10px;
+            object-fit: contain;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            color: white;
-            font-size: 22px;
-            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
         }
+        
+        .footer-logo-icon img{
+            width: 160pt;
+            height: 240px;
+            position: relative;
+            top: -18pt;
+        }
+
+
 
         .footer-logo-text {
             color: white;
